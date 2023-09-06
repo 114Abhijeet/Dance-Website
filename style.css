@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung|ZCOOL+QingKe+HuangYou&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#navbar{
+    background-color: #d43b3b;
+    font-family: 'Yeon Sung' ;
+    padding: 13px, 14px;
+    height: 100px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height:100px;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+    font-size:1.2rem;
+    color:white;
+   text-decoration: none;
+    padding: 13px 20px;
+}
+#navbar li a:hover{
+    color: black;  
+}
+#introSection{
+    color:#f9fafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg") ;
+    height: 425px;
+    background-color: red;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+#missionSection{
+    height: 326px;
+    margin-top:20px;
+}
+
+#missionSection h2{
+    font-size: 36px;
+    font-family: 'Yeon Sung' ;
+    text-align: center;
+    padding-top: 12px;
+}
+#missionSection div.fix{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#sponsorsSection{
+    height: 350px;
+    background-color: #fbd6d6c7;
+    text-align:center;
+    padding: 15px;
+    font-size:1.3rem;
+    font-weight:bold;
+}
+#sponsorsSection div.fix{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    height: 300px;
+}
+#sponsorsSection div.fix img{
+height:inherit;
+}
+
+#sponsorsSection div.fix img.spImage{
+    height:200px;
+    width:250px;
+    margin: 10px;
+}  
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 65px;
+    filter: invert(1);
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 23px 20px;
+    height: 209px;
+    width:320px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0 10px;
+    margin: 5px 5px;
+}
+.card-img img{
+    height: inherit; 
+}
+.card-content {
+    margin-right: 10px;
+}
+#footer{
+    background-color: black;
+    height: 50px;
+    color: white;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
